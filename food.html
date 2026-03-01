@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE FOOD</title>
+</head>
+<body>
+    <style>
+body {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+background:linear-gradient(to top,rgb(185, 110, 185),rgb(233, 214, 214)); 
+margin:0;
+padding:0;
+}
+h1 {
+text-align: center;
+background: linear-gradient(to bottom, rgb(237, 174, 184),rgb(209, 79, 209));
+color:black;
+padding: 20px;
+margin: 0;
+}
+.container {
+width: 80%;
+margin: 30px auto;
+background-color: white;
+padding: 50px;
+border-radius: 10px;
+box-shadow: 0px 0px 15px gray;
+}
+h2 {
+color: black;
+border-bottom: 2px solid #ff4d4d;
+padding-bottom: 5px;
+}
+.food-item {
+display: inline-block;
+text-align: center;
+margin: 15px;
+padding: 10px;
+border: 2px solid #ffb3b3;
+border-radius: 20px;
+background:linear-gradient(to left, rgb(216, 170, 178),rgb(209, 79, 209))
+}
+.food-item img {
+width: 150px;
+height: 120px;
+border-radius: 10px;
+}
+input, textarea{
+width: 100%;
+padding-top: 10px;
+margin: 5px 0 15px 0;
+border-radius: 10px;
+border: 1px solid #ccc;
+}
+.btn{
+background-color:rgb(224, 64, 64);
+color: white;
+padding:  10px ;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.btn:hover {
+background-color: #cc0000;
+}
+footer {
+text-align: center;
+background-color: white;
+color: black;
+padding: 20px;
+margin-top: 20px;
+}
+</style>
+<h1> Online Food Ordering </h1>
+<div class="container">
+<form>
+<h2>Customer Details</h2>
+<label>Full Name</label>
+<input type="text" required>
+<label>Email</label>
+<input type="email" required>
+<label>Phone</label>
+<input type="tel" required>
+<label>Address</label>
+<textarea rows="3"></textarea>
+<h2>Choose Your Food</h2>
+<div class="food-item">
+<img src="P.jpg">
+<br>
+<input type="checkbox"> Pizza - ₹200
+</div>
+<div class="food-item">
+<img src="B.jpg">
+<br>
+<input type="checkbox"> Burger - ₹120
+</div>
+<div class="food-item">
+<img src="PASTA.JPG">
+<br>
+<input type="checkbox"> Pasta - ₹180
+</div>
+<div class="food-item">
+<img src="FIRED RICE.JPG">
+<br>
+<input type="checkbox"> Fried Rice - ₹150
+</div>
+<div class="food-item">
+<img src="CHICKEN.JPG">
+<br>
+<input type="checkbox"> chicken briyani- ₹150
+</div>
+<div class="food-item">
+<img src="MATTOM.JPG">
+<br>
+<input type="checkbox">mattom briyani- ₹120
+</div>
+<div class="food-item">
+<img src="PANEET.JPG">
+<br>
+<input type="checkbox">paneer briyani - ₹180
+</div>
+<div class="food-item">
+<img src="EGG.JPG">
+<br>
+<input type="checkbox">  egg briyani - ₹150
+</div>
+<div class="food-item">
+<img src="idly.jpg">
+<br>
+<input type="checkbox">  idly - ₹10
+</div>
+<div class="food-item">
+<img src="dosa.jpg">
+<br>
+<input type="checkbox">  dosa - ₹50
+</div>
+<div class="food-item">
+<img src="puri.JPG">
+<br>
+<input type="checkbox">  puri - ₹70
+</div>
+<div class="food-item">
+<img src="chappathi.jpg">
+<br>
+<input type="checkbox">  chappathi - ₹100
+</div>
+<div class="food-item">
+<img src="soup.jpg">
+<br>
+<input type="checkbox">  Tomato soup - ₹100
+</div>
+<div class="food-item">
+<img src="samosa.jpg">
+<br>
+<input type="checkbox">  samosa  - ₹20
+</div>
+<div class="food-item">
+<img src="noodles.jpg">
+<br>
+<input type="checkbox">  noodles - ₹200
+</div>
+<div class="food-item">
+<img src="t.jpg">
+<br>
+<input type="checkbox">  tomato rice - ₹200
+</div>
+<div class="food-item">
+<img src="curd.jpg">
+<br>
+<input type="checkbox">  curd rice - ₹50
+</div>
+<div class="food-item">
+<img src="lemon.jpg">
+<br>
+<input type="checkbox">  lemon rice- ₹250
+</div>
+<div class="food-item">
+<img src="carrot.jpg"> 
+<br>
+<input type="checkbox">  carrot rice -₹500
+</div>
+<div class="food-item">
+<img src="fish.jpg"> 
+<br>
+<input type="checkbox">  fish fry -₹250
+</div>
+<div class="food-item">
+<img src="parotta.jpg"> 
+<br>
+<input type="checkbox">  parotta -₹25
+</div>
+
+<h2>Payment Method</h2>
+<input type="radio" name="payment">UPI<br>
+<input type="radio" name="payment">Card<br>
+<input type="radio" name="payment">cash payment<br><br>
+<button class="btn">Place Order</button>
+</form>
+</div>
+<footer>
+© 2026 Online Food Order | Designed by You
+</footer>
+</body>
+</html>
